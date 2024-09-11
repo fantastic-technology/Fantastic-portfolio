@@ -1,16 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fantastic Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- mone.flatheme.net/?storefront=envato-elements -->
 </head>
-<!-- mone.flatheme.net/?storefront=envato-elements -->
-<body>
+<style>
+    .body{
+        font-family: "Poppins", sans-serif;
+    }
+    .menu1{
+        padding: 0px;
+        height: 0vh;
+        overflow: hidden;
+        transition: 1s ease-in-out;
+    }
+    .show{
+        height: 40vh;
+        padding: 10px;
+    }
+</style>
+<body class="body bg-black text-white">
     <!-- navbar -->
-     <nav>
-
+     <nav class="p-[20px] sticky top-0">
+        <ul class="flex items-center justify-between">
+            <li class="text-4xl">Fantastic</li>
+            <li class="flex items-center gap-6">
+                <button class="bg-zinc-800 p-[10px] rounded-[50em]  w-[8vw] hover:bg-gradient-to-r from-violet-500 to-fuchsia-500 ">Let's talk</button>
+                <button class="text-black bg-white p-[10px] rounded-[50em] w-[7vw] hover:animate-pulse" onclick="drop1()">Menu</button>
+                <div class="menu1 absolute top-20 right-10 bg-gradient-to-r from-violet-400 to-purple-400  w-[15vw] rounded-lg">
+                    <ul class="flex flex-col gap-4">
+                    <li class="cursor-pointer hover:text-black">About</li>
+                    <li class="cursor-pointer hover:text-black">Service</li>
+                    <li class="cursor-pointer hover:text-black">Portfolio</li>
+                    <li class="cursor-pointer hover:text-black">Awards</li>
+                    <li class="cursor-pointer hover:text-black">Testimonail</li>
+                    <li class="cursor-pointer hover:text-black">Blog</li>
+                    <li class="cursor-pointer hover:text-black">Contact</li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
      </nav>
      <!-- navbar ends -->
 
@@ -49,5 +84,11 @@
             
         </footer>
         <!-- footer ends -->
+         <script>
+            function drop1(){
+                const dropm = document.querySelector(".menu1")
+                dropm.classList.toggle('show')
+            }
+         </script>
 </body>
 </html>
