@@ -83,7 +83,7 @@
     <!-- about page -->
     <section>
         <div class="bg-black text-white">
-            <h1 class="ht text-[100px] items-center justify-center flex">Abdulmujeeb</h1>
+            <h1 class="ht text-[70px] items-center justify-center flex">Abubakar Jamaldeen</h1>
             <section class="flex items-center justify-center p-20">
                 <article>
                     <div class="w-[38%] justify-center items-center mb-10">
@@ -99,7 +99,7 @@
                         <li class="text-[17px] leading-8 list-disc">Vfx and CG creator</li>
                     </ul>
                 </article>
-                ,<main class="flex flex-row-reverse items-center justify-start gap-[100px]">
+                <main class="flex flex-row-reverse items-center justify-start gap-[150px]">
                     <article>
                         <div class="mb-5">
                             <p class="text-[20px]">Projects Done</p>
@@ -125,8 +125,151 @@
     <!-- about page ends -->
 
     <!-- portfolio page -->
-    <section>
+    <section class="flex flex-col items-center gap-24 justify-center bg-zinc-800 p-[50px] rounded-lg m-[50px]">
+        <div>
+            Portfolio
+            <p class="text-[50px] font-semibold">Recent <span class="text-transparent bg-clip-text bg-gradient-to-br from-violet-500 to-fuchsia-500">Works</span></p>
+            <p class="w-[70vw]">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            </p>
+        </div>
+        <div class="carousel">
+            <button id="prevBtn"
+                class="absolute left-0 transform -translate-y-1/2 bg-zinc-400 bg-opacity-50 text-white p-5 rounded-full m-[200px] ">
+                &#10094;
+            </button>
 
+            <!-- Next Button -->
+            <button id="nextBtn"
+                class="absolute right-0 transform -translate-y-1/2 bg-zinc-400 bg-opacity-50 text-white p-5 rounded-full m-[200px]">
+                &#10095;
+            </button>
+            <!-- Slide 1 -->
+            <a href="https://pixeljam.vercel.app">
+                <div class="slide active">
+                    <img src="/home/img/pixeljam.png" class="h-[300px] rounded-lg hover:animate-pulse">
+                    <p>
+                    <div class="flex text-[20px] p-[10px] ">
+                        <ul class="flex items-center gap-11 list-disc">
+                            <li>Website</li>
+                            <li>React js</li>
+                            <li>APi</li>
+                        </ul>
+                    </div>
+                    <p class="text-[30px] font-semibold">
+                        Pixeljam: Quality image downloader web
+                    </p>
+                    </p>
+                </div>
+            </a>
+
+            <!-- Slide 2 -->
+            <a href="https://earnkash.onrender.com">
+                <div class="slide">
+                    <img src="/home/img/ek.png" class="h-[300px] rounded-lg hover:animate-pulse">
+                    <p>
+                        <div class="flex text-[20px] p-[10px] ">
+                            <ul class="flex items-center gap-11 list-disc">
+                                <li>Full-stack-web</li>
+                                <li>Python</li>
+                                <li>Django</li>
+                            </ul>
+                        </div>
+                        <p class="text-[30px] font-semibold">
+                            Earn kash: Create task, earn money , playQUiz
+                        </p>
+                    </p>
+                </div>
+            </a>
+
+            <!-- Slide 3 -->
+           <a href="https://jamal-sneaker-company.vercel.app/">
+            <div class="slide">
+                <img src="/home/img/sneakerdes.png" class="h-[300px] rounded-lg hover:animate-pulse">
+                <p>
+                <div class="flex text-[20px] items-center gap-3">
+                    <ul class="flex items-center gap-11 list-disc">
+                        <li>Web design</li>
+                        <li>Next js</li>
+                    </ul>
+                </div>
+                <p class="text-[30px] font-semibold">
+                    J-sc:Sneaker company e-commerce design
+                </p>
+                </p>
+            </div>
+           </a>
+            <!-- Slide 4 -->
+            <a href="https://ftech-dictionary.vercel.app/">
+                <div class="slide">
+                    <img src="/home/img/ftech dictionary.png" class="h-[300px] rounded-lg hover:animate-pulse">
+                    <p>
+                        <div class="flex text-[20px] items-center gap-3">
+                            <ul class="flex items-center gap-11 list-disc">
+                                <li>Website</li>
+                                <li>React js</li>
+                                <li>APi</li>
+                            </ul>
+                        </div>
+                        <p class="text-[30px] font-semibold">
+                            Ftech dict: Dictionary
+                        </p>
+                    </p>
+                </div>
+            </a>
+            <a href="https://secret-gems.vercel.app/">
+                <div class="slide">
+                    <img src="/home/img/secretgems.png" class="h-[300px] rounded-lg hover:animate-pulse">
+                    <p>
+                        <div class="flex text-[20px] items-center gap-3">
+                            <ul class="flex items-center gap-11 list-disc">
+                                <li>Web game</li>
+                                <li>Html, css</li>
+                                <li>Js</li>
+                            </ul>
+                        </div>
+                        <p class="text-[30px] font-semibold">
+                            SG: Guess the gem game
+                        </p>
+                    </p>
+                </div>
+            </a>
+            <a href="https://biteurl.onrender.com/">
+                <div class="slide">
+                    <img src="/home/img/biteurl.png" class="h-[300px] rounded-lg hover:animate-pulse">
+                    <p>
+                        <div class="flex text-[20px] items-center gap-3">
+                            <ul class="flex items-center gap-11 list-disc">
+                                <li>Full-stack-Website</li>
+                                <li>Python</li>
+                                <li>Django</li>
+                            </ul>
+                        </div>
+                        <p class="text-[30px] font-semibold">
+                            Biteurl: short your long url
+                        </p>
+                    </p>
+                </div>
+            </a>
+            <a href="https://muslim-counter-app.vercel.app/">
+                <div class="slide">
+                    <img src="/home/img/mcounter.png" class="h-[300px] rounded-lg hover:animate-pulse">
+                    <p>
+                        <div class="flex text-[20px] items-center gap-3">
+                            <ul class="flex items-center gap-11 list-disc">
+                                <li>Website</li>
+                                <li>Html, css</li>
+                                <li>js</li>
+                            </ul>
+                        </div>
+                        <p class="text-[30px] font-semibold">
+                           Mcounter: count with your device
+                        </p>
+                    </p>
+                </div>
+            </a>
     </section>
     <!-- portfolio ends -->
 
@@ -137,21 +280,27 @@
         <p class="text-5xl">WHAT I <span class="text-transparent bg-clip-text bg-gradient-to-br from-violet-500 to-fuchsia-500">DO</span></p>
        </div>
         <div class="flex flex-col justify-center items-center gap-14 m-5 mr-10">
-            <div class="flex gap-32  bg-zinc-800 h-36 p-4 w-[60vw] justify-center items-center rounded-xl">
+            <div class="flex gap-32 border-b-violet-600 border-b-[3px] hover:bg-gradient-to-br from-violet-950 to-fuchsia-800 bg-zinc-800 h-36 p-4 w-[60vw] justify-center items-center rounded-xl">
                     <h1 class="text-2xl">01/</h1>
-                    <h1 class="text-2xl">Design</h1>
+                    <h1 class="text-2xl flex items-center gap-2"><span><img src="/home/img/icons8-makeup-brush-50.png" alt=""></span> Web Design</h1>
                     <p class="text-1xl w-[25vw]">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
             </div>
-            <div class="flex gap-32  hover:bg-rose-300 ease-in-out bg-zinc-800 h-36 p-4 w-[60vw] justify-center items-center rounded-xl">
+            <div class="flex gap-32 border-b-violet-600 border-b-[3px]  hover:bg-gradient-to-br from-violet-950 to-fuchsia-800 bg-zinc-800 h-36 p-4 w-[60vw] justify-center items-center rounded-xl">
                     <h1 class="text-2xl">02/</h1>
-                    <h1 class="text-2xl ">Development</h1>
+                    <h1 class="text-2xl flex items-center gap-2"><span><img src="/home/img/icons8-laptop-coding-50.png" alt=""></span> Development</h1>
                     <p class="text-1xl w-[25vw]">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
             </div>
-            <div class="flex gap-32  bg-zinc-800 h-36 p-4 w-[60vw] justify-center items-center rounded-xl">
+            <div class="flex gap-32 border-b-violet-600 border-b-[3px] hover:bg-gradient-to-br from-violet-950 to-fuchsia-800  bg-zinc-800 h-36 p-4 w-[60vw] justify-center items-center rounded-xl">
                     <h1 class="text-2xl">03/</h1>
-                    <h1 class="text-2xl">Marketing</h1>
+                    <h1 class="text-2xl flex items-center gap-2"><span><img src="/home/img/icons8-makeup-brush-50.png" alt=""></span> Graphic design</h1>
                     <p class="text-1xl w-[25vw]">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
             </div>
+            <div class="flex gap-32 border-b-violet-600 border-b-[3px] hover:bg-gradient-to-br from-violet-950 to-fuchsia-800 bg-zinc-800 h-36 p-4 w-[60vw] justify-center items-center rounded-xl">
+                <h1 class="text-2xl">04/</h1>
+                <h1 class="text-2xl flex items-center gap-2"><span><img src="/home/img/icons8-video-editing-64.png" alt=""></span> Video editing</h1>
+                <p class="text-1xl w-[25vw]">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+        </div>
+
             
         </div>
             
@@ -172,7 +321,7 @@
         <div class="grid grid-cols-2 gap-7 ">
             <!-- first card -->
             <article
-                class="border-solid border-x-2 border-y-2 w-[28vw]  text-white px-5 py-6 hover:bg-gradient-to-bl from-purple-900 to-purple-500 border-b-purple-700 cursor-pointer bg-zinc-800 rounded-lg border-transparent">
+                class="border-b-violet-600 border-b-[3px] w-[28vw]  text-white px-5 py-6   hover:bg-gradient-to-br from-violet-950 to-fuchsia-800 cursor-pointer bg-zinc-800 rounded-lg border-transparent">
                 <h1 class="text-[22px]">Best Designer Of The Month</h1>
                 <p class="text-slate-300">2023</p>
                 <p class="text-[16px]">Lorem ipsum dolor sit, sint non? Molestias aliquid dignissimos suscipit nesciunt
@@ -180,7 +329,7 @@
             </article>
             <!-- second card -->
             <article
-            class="border-solid border-x-2 border-y-2 w-[28vw] text-white px-5 py-6 hover:bg-gradient-to-bl from-purple-900 to-purple-500 border-b-purple-700 cursor-pointer bg-zinc-800 rounded-lg border-transparent">
+            class="border-b-violet-600 border-b-[3px] w-[28vw] text-white px-5 py-6  hover:bg-gradient-to-br from-violet-950 to-fuchsia-800 cursor-pointer bg-zinc-800 rounded-lg border-transparent">
             <h1 class="text-[22px]">The True Gem</h1>
             <p class="text-slate-300">2023</p>
             <p class="text-[16px]">Lorem ipsum dolor sit, sint non? Molestias aliquid dignissimos suscipit nesciunt
@@ -188,7 +337,7 @@
             </article>
             <!-- third card -->
             <article
-            class="border-solid border-x-2 border-y-2 w-[28vw] text-white px-5 py-6 hover:bg-gradient-to-bl from-purple-900 to-purple-500 border-b-purple-700 cursor-pointer bg-zinc-800 rounded-lg border-transparent">
+            class="border-b-violet-600 border-b-[3px] w-[28vw] text-white px-5 py-6  hover:bg-gradient-to-br from-violet-950 to-fuchsia-800 cursor-pointer bg-zinc-800 rounded-lg border-transparent">
             <h1 class="text-[22px]">First Class Performer</h1>
             <p class="text-slate-300">2023</p>
             <p class="text-[16px]">Lorem ipsum dolor sit, sint non? Molestias aliquid dignissimos suscipit nesciunt
@@ -196,7 +345,7 @@
             </article>
             <!-- fourth card -->
             <article
-            class="border-solid border-x-2 border-y-2 w-[28vw]  text-white px-5 py-6 hover:bg-gradient-to-bl from-purple-900 to-purple-500 border-b-purple-700 cursor-pointer bg-zinc-800 rounded-lg border-transparent">
+            class=" border-b-violet-600 border-b-[3px] w-[28vw]  text-white px-5 py-6  hover:bg-gradient-to-br from-violet-950 to-fuchsia-800 cursor-pointer bg-zinc-800 rounded-lg border-transparent">
             <h1 class="text-[22px]">Customers Favourite</h1>
             <p class="text-slate-300">2023</p>
             <p class="text-[16px]">Lorrem ipsum dolor sit, sint non? Molestias aliquid dignissimos suscipit nesciunt
@@ -359,6 +508,11 @@
             currentIndex = (currentIndex + direction + slides.length) % slides.length;
             slides[currentIndex].classList.add('active');
         }
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.getElementById('preloader').style.display = 'none';
+            }, 2000); // 2 seconds delay
+        });
     </script>
 </body>
 
