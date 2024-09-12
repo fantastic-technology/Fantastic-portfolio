@@ -3,10 +3,7 @@
 
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<<<<<<< HEAD
-=======
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
->>>>>>> 4b11820dbd2d7b7b699731852117f176fba87405
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -48,37 +45,6 @@
     /* Display the active slide */
     .active {
         display: block;
-<<<<<<< HEAD
-      }
-      .preloader{
-        background-color: black;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: xx-large;
-      }
-      #blog{
-        display: none;
-      }
-</style>
-<header class="preloader"><h1 class="animate-bounce animate-pulse">Loading.....</h1></header>
-<body class="body bg-black text-white">
-    <!-- navbar -->
-    <main class="content" style="display: none;">
-        <nav class="p-[20px] sticky top-0">
-            <ul class="flex items-center justify-between p-[10px]">
-                <li class="text-4xl">Fantastic</li>
-                <li class="flex items-center gap-6">
-                    <button class="bg-zinc-800 p-[10px] rounded-[50em]  w-[8vw] hover:bg-gradient-to-r from-violet-500 to-fuchsia-500 ">Let's talk</button>
-                    <button class="text-black bg-white p-[10px] rounded-[50em] w-[7vw] hover:animate-pulse" onclick="drop1()">Menu</button>
-                    <div class="menu1 absolute top-20 right-10 bg-gradient-to-br from-violet-500 to-fuchsia-500 w-[15vw] rounded-lg">
-                        <ul class="flex flex-col gap-4">
-=======
     }
 </style>
 
@@ -96,7 +62,6 @@
                 <div
                     class="menu1 absolute top-20 right-10 bg-gradient-to-br from-violet-500 to-fuchsia-500 w-[15vw] rounded-lg">
                     <ul class="flex flex-col gap-4">
->>>>>>> 4b11820dbd2d7b7b699731852117f176fba87405
                         <li class="cursor-pointer hover:text-black">About</li>
                         <li class="cursor-pointer hover:text-black">Service</li>
                         <li class="cursor-pointer hover:text-black">Portfolio</li>
@@ -324,48 +289,6 @@
                     <label class="text-lg">CALL:</label>
                     <p class="font-semibold text-2xl">+234 703 543 6829</p>
                 </div>
-<<<<<<< HEAD
-                <button type="submit" class="bg-zinc-700 p-[10px] rounded-[50em]  w-[15vw] hover:bg-gradient-to-r from-violet-500 to-fuchsia-500 ">Send message</button>
-            </form>
-              </section>
-              <!-- contact ends -->
-           <!-- footer -->
-            <footer class="p-[50px] flex items-center justify-center">
-                <div>© 2024 Fantastic-tech, All Rights Reserved.</div>
-            </footer>
-    </main>
-        <!-- footer ends -->
-         <script>
-            function drop1(){
-                const dropm = document.querySelector(".menu1")
-                dropm.classList.toggle('show')
-            }
-            const slides = document.querySelectorAll('.slide');
-            let currentIndex = 0;
-        
-            document.getElementById('nextBtn').addEventListener('click', () => {
-              changeSlide(1);
-            });
-        
-            document.getElementById('prevBtn').addEventListener('click', () => {
-              changeSlide(-1);
-            });
-        
-            function changeSlide(direction) {
-              slides[currentIndex].classList.remove('active');
-              currentIndex = (currentIndex + direction + slides.length) % slides.length;
-              slides[currentIndex].classList.add('active');
-            }
-
-            window.addEventListener('load', function() {
-                setTimeout(function() {
-                    document.querySelector('.preloader').style.display = 'none';
-                    document.querySelector('.content').style.display = 'block';
-                    document.getElementById('blog').style.display = 'flex';
-                }, 2000); 
-            });
-         </script>
-=======
             </div>
             <div class="flex items-center gap-[20px]">
                 <input class="bg-zinc-800 p-[10px] rounded-lg outline-none w-[30vw]" type="text" name=""
@@ -414,7 +337,6 @@
             slides[currentIndex].classList.add('active');
         }
     </script>
->>>>>>> 4b11820dbd2d7b7b699731852117f176fba87405
 </body>
 
 </html>
